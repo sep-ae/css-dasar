@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Combinator</title>
+
+    <style>
+        div p:nth-child(1) {
+          color: red;
+        }
+        
+        div > p {
+          background-color: yellow;
+        }
+        
+        div + p {
+          background-color: darkgray;
+        }
+        
+        div ~ p:nth-child(4) {
+          color: cyan;
+        }
+        </style>
+
+</head>
+<body>
+    <div>
+        <p>This is a paragraph. Explain the conclusion about selector no 1 on this paragraph.</p>
+        <p>This is a paragraph. Explain the conclusion about selector no 2 on this paragraph.</p>
+      </div>
+      <p>This is a paragraph. Explain the conclusion about selector no 3 on this paragraph.</p>
+      <p>This is a paragraph. Explain the conclusion about selector no 4 on this paragraph.</p>
+</body>
+</html>
