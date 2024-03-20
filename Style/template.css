@@ -14,7 +14,7 @@
   
   .title {
     font-size: 25px;
-    padding: 20px;
+    padding: 5px;
     background-color: blue;
     text-align: left;  
   }
@@ -82,7 +82,7 @@
   }
   footer {
     margin-top: 10px;
-    padding: 20px;
+    padding: 30px;
     background-color: #00a2c6;
     text-align: right;
     font-weight: bold;
